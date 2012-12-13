@@ -97,6 +97,9 @@ code {
   line-height: 2em; }
 
 h2 {
+  line-height: 1em; }
+
+body.article h2 {
   line-height: 2em; }
 
 @media (min-width: 767px) and (max-width: 979px) {

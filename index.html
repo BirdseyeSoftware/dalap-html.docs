@@ -1,31 +1,37 @@
 ---
-title: Title
+title: dalap-html | HTML rendering using dalap
 layout: default
 ---
 <div class='headline'>
   <div class='logo'>
-    <h1>Project Name</h1>
+    <h1>dalap-html</h1>
   </div>
   <div class='clear' style=''></div>
   <p style=''>
-    Project description
+    Render HTML templates using dalap
   </p>
-  <a class='btn btn-primary btn-large' href='/articles/getting_started.html'>Get Started! »</a>
-  <a class="btn btn-large" href="/articles/guides.html">Read doc guides »</a>
+  <a class='btn btn-primary btn-large' href='{{site.baseurl}}/articles/getting_started.html'>Get Started! »</a>
+  <a class="btn btn-large" href="{{site.baseurl}}/articles/guides.html">Read doc guides »</a>
+  <!--
   <a class='btn btn-large' href=''>Join the Mailing List »</a>
-  <a class='btn btn-large' href=''>Contribute »</a>
+  -->
+  <a class='btn btn-large' href='http://github.com/BirdseyeSoftware/dalap-html'>Contribute »</a>
 </div>
 <div class='row-fluid'>
   <div class='span4'>
-    <h2>Heading</h2>
-    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+    <h2>Clojure data structures</h2>
+    <p>dalap-html relies heavily on the usage of Clojure data
+    structures to represent HTML templates. Why learn another
+    template language when you already know how to use Clojure code?</p>
   </div>
   <div class='span4'>
-    <h2>Heading</h2>
-    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+    <h2>A single template, multiple ways to render</h2>
+    <p>Once a template is defined doesn't mean you are stuck with that
+    implementation. dalap-html allows you to change your template rendering
+    later on by the usage of dalap rules selectors.</p>
   </div>
   <div class='span4'>
-    <h2>Heading</h2>
-    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+    <h2>Clojurescript ready</h2>
+    <p>This library works well for rendering templates both in Server and Client side.</p>
   </div>
 </div>

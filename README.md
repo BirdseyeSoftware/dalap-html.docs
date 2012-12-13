@@ -1,7 +1,10 @@
-# Project Name Documentation
+# dalap-html.docs
 
-This is a documentation site for [Project Name]. Copy or clone me and adapt for your project
-that needs documentation guides similar to [rubyamqp.info](http://rubyamqp.info), [clojuremongodb.info](http://clojuremongodb.info) and so on.
+This is a documentation site for
+[dalap-html](http://github.com/BirdseyeSoftware/dalap-html). Copy or
+clone me and adapt for your project that needs documentation guides
+similar to [rubyamqp.info](http://rubyamqp.info),
+[clojuremongodb.info](http://clojuremongodb.info) and so on.
 
 
 ## Install Dependencies
